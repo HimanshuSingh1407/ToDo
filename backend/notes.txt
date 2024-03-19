@@ -1,0 +1,13 @@
+make backend folder
+make Server.js file
+run command npm init -y in backend folder
+then make changes in package.json file like below mention
+"scripts": {
+    "dev": "nodemon Server.js",
+    "start": "node server.js"
+  },
+run command npm i -g nodemon
+run command npm i express mongoose dotenv cors
+then write code in server.js file
+after writing code in server.js then run command in terminal  or cmd :npm run dev
+
